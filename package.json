@@ -11,6 +11,7 @@
   "dependencies": {
     "elliptic": "^6.5.7",
     "ethereumjs-util": "^7.1.5",
-    "js-sha3": "^0.9.3"
+    "js-sha3": "^0.9.3",
+    "keccak256": "^1.0.6"
   }
 }
