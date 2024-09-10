@@ -1,3 +1,5 @@
+// https://medium.com/hackernoon/utilizing-cryptography-libraries-to-derive-ethereum-addresses-from-private-keys-1bedd1a85bd
+
 const EC = require("elliptic").ec;
 const ec = new EC("secp256k1");
 const keccak256 = require("js-sha3").keccak256;
