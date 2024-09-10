@@ -18,6 +18,8 @@ const pubKeyCoordinates = generatorPoint.mul(givenPrivateKey);
 
 const x = pubKeyCoordinates.getX().toString("hex");
 const y = pubKeyCoordinates.getY().toString("hex");
+console.log("x:", x); // x: af80b90d25145da28c583359beb47b21796b2fe1a23c1511e443e7a64dfdb27d
+console.log("y:", y); // y: 7434c380f0aa4c500e220aa1a9d068514b1ff4d5019e624e7ba1efe82b340a59
 
 // Public Key = X and Y concatenated
 const publicKey = x + y;
